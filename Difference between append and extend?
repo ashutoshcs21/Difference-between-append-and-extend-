@@ -1,0 +1,14 @@
+append:
+
+num1=[1,2,3]
+num2=[4,5,6]
+num1.append(num2)
+print (num1)
+#Output:[1, 2, 3, [4, 5, 6]]
+extend:
+
+num1=[1,2,3]
+num2=[4,5,6]
+num1.extend(num2)
+print (num1)
+#Output:[1, 2, 3, 4, 5, 6]
